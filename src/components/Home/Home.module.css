@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.produtosContainer {
+    width: 80%;
+    height: auto;
+    margin: 70px auto; /* Centraliza verticalmente e define margem nas laterais */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define três colunas com largura flexível */
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; /* Faz com que cada item ocupe o mesmo espaço dentro do contêiner */
+    margin: 10px; /* Margem entre os produtos */
+}
+
+
+.containerBotaoCarrinho {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 10px; /* Espaçamento superior entre o texto e o botão */
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto p {
+    font-family: 'Baloo 2', serif; /* Aplica a fonte Baloo 2 */
+    color: #1C1C1C; /* Cor preta */
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.produto button {
+    font-family: "Baloo 2", serif;
+    background-color: #32CD32;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaoCarrinho {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaoCarrinho img {
+    max-width: 20px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.botaoCarrinho span {
+    font-size: 16px; /* Tamanho do texto */
+}
+
+.botaoCarrinho:hover {
+    background-color: #0056b3;
+}
+
+.produto button:hover {
+    background-color: #228B22;
+}
+
+/* Media query para ajustar o layout em telas menores */
+@media screen and (max-width: 768px) {
+    .produtosContainer {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta o número de colunas */
+        gap: 10px; /* Reduz o espaço entre os produtos */
+        padding: 10px; /* Reduz o espaçamento interno */
+    }
+
+    .produto {
+        padding: 15px; /* Ajusta o padding dos produtos */
+    }
+
+    .produto button {
+        padding: 8px 16px; /* Ajusta o padding do botão */
+        font-size: 14px; /* Reduz o tamanho da fonte do botão */
+    }
+}

@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# NextGen Gaming
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+NextGen Gaming é um projeto desenvolvido como parte de um desafio técnico para a posição de Desenvolvedor Frontend na NextGen Development. O propósito do desafio é criar uma aplicação web de comércio eletrônico especializada em jogos e consoles, proporcionando uma experiência de usuário fluida e atrativa. 
 
-In the project directory, you can run:
+## Propósito do Desafio Técnico
 
-### `npm start`
+O objetivo principal deste desafio é avaliar a capacidade de criar uma aplicação web completa e funcional utilizando tecnologias modernas de desenvolvimento web. A aplicação deve ser capaz de listar produtos, adicionar itens ao carrinho de compras, e ter uma interface de usuário responsiva e intuitiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **HTML5**: Utilizado para estruturar o conteúdo da aplicação.
+- **CSS3**: Utilizado para estilizar a aplicação e garantir uma interface de usuário atrativa e responsiva.
+- **JavaScript**: Utilizado para adicionar interatividade à aplicação.
+- **React JS**: Utilizado para desenvolver a interface de usuário de forma modular, eficiente e reativa.
 
-### `npm test`
+## Justificativa para a Escolha do React JS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React JS foi escolhido como a biblioteca principal para o desenvolvimento da interface de usuário deste projeto por várias razões:
 
-### `npm run build`
+1. **Componentização**: React permite dividir a aplicação em componentes reutilizáveis, facilitando a manutenção e escalabilidade do código.
+2. **Virtual DOM**: React utiliza um Virtual DOM para otimizar as atualizações da interface de usuário, resultando em uma performance mais eficiente.
+3. **Comunidade e Ecossistema**: React possui uma vasta comunidade de desenvolvedores e uma ampla gama de bibliotecas e ferramentas que complementam o desenvolvimento, como React Router para gerenciamento de rotas e Redux para gerenciamento de estado.
+4. **Desenvolvimento Declarativo**: Com React, a criação de interfaces de usuário é mais intuitiva e previsível, utilizando uma abordagem declarativa onde se descreve o resultado desejado, e o React cuida das atualizações necessárias.
+5. **Suporte a JSX**: JSX, uma extensão de sintaxe para JavaScript, permite escrever código que se assemelha a HTML, tornando o desenvolvimento de componentes mais intuitivo e legível.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Funcionalidades Principais
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Listagem de Produtos**: Exibe uma lista de produtos (jogos e consoles) com suas respectivas imagens, descrições e preços.
+- **Carrinho de Compras**: Permite adicionar produtos ao carrinho de compras.
+- **Responsividade**: Interface de usuário adaptável a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos móveis e desktops.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como Executar o Projeto
 
-### `npm run eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (versão LTS recomendada)
+- npm ou yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Passos para Executar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/usuario/Teste-Tecnico-Front-End-Maria-De-Fatima-Nunes-Alves.git
+    ```
+2. **Instale as dependências**:
+    ```bash
+    cd NextGenGaming
+    npm install
+    ```
+3. **Execute a aplicação**:
+    ```bash
+    npm start
+    ```
+4. **Acesse a aplicação**:
+    Abra o navegador e vá para `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Considerações Finais
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto demonstra a capacidade de criar uma aplicação web funcional e moderna utilizando as melhores práticas de desenvolvimento frontend. React JS foi escolhido por sua eficiência, modularidade e ampla adoção na indústria, o que garante que a aplicação seja robusta e escalável.
