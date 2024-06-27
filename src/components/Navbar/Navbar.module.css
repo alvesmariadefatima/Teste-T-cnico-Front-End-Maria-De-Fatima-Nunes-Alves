@@ -3,8 +3,6 @@
 .menu {
     display: flex;
     align-items: center;
-    padding: 0; /* Remove o padding para eliminar qualquer espaçamento */
-    margin: 0; /* Remove as margens para garantir que o menu ocupe toda a largura */
     background-color: #1C1C1C; /* Cor de fundo do menu */
     position: fixed;
     top: 0;
@@ -18,16 +16,30 @@
     font-size: 20px;
     color: #ffffff;
     font-weight: 600;
-    margin: 10px;
+    margin: 0; /* Remova o margin que estava causando um espaçamento extra */
+}
+
+.logoLink {
+    text-decoration: none;
+    display: flex; /* Para garantir que os elementos fiquem na mesma linha */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.logoImg {
+    width: 40px; /* Tamanho do ícone do logotipo */
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
 }
 
 .containerCarrinho {
-    margin-left: auto; /* Empurra o carrinho para a direita */
+    margin-left: auto; /* Posiciona o carrinho no canto direito */
 }
 
-.containerCarrinho img {
+.carrinhoIcon {
     width: 30px; /* Tamanho do ícone do carrinho */
     height: auto;
+    cursor: pointer; /* Transforma o ícone em um ponteiro ao passar o mouse */
+    /* Adicione outros estilos conforme necessário */
 }
 
 /* Estilos para o menu responsivo */
@@ -36,7 +48,7 @@
         flex-direction: row; /* Altera para layout de linha em telas menores */
         position: fixed;
         justify-content: space-between; /* Espaço entre os itens no menu */
-        padding: 10px; /* Reduz o padding para economizar espaço */
+        padding: 0; /* Reduz o padding para economizar espaço */
     }
 
     .nomeSite {
