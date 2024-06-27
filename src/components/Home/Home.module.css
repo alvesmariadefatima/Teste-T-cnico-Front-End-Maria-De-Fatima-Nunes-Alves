@@ -24,11 +24,19 @@ body {
     margin: 10px; /* Margem entre os produtos */
 }
 
-
 .containerBotaoCarrinho {
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     margin-top: 10px; /* Espaçamento superior entre o texto e o botão */
+}
+
+/* Estilos do botão de carrinho */
+.botaoLink {
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: flex; /* Para centralizar o botão */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Ocupa toda a altura do container */
 }
 
 .produto img {
@@ -81,6 +89,11 @@ body {
 
 .produto button:hover {
     background-color: #228B22;
+}
+
+/* Estilos do botão de carrinho */
+.botaoLink {
+    text-decoration: none; /* Remove o sublinhado do link */
 }
 
 /* Media query para ajustar o layout em telas menores */
