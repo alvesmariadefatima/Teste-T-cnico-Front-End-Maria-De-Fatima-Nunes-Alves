@@ -1,4 +1,159 @@
-.msgCarrinhoVazio, .msgQuantidade, .nomeProduto, h2 {
+/* Definindo estilos globais */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+p {
+    font-family: "Baloo 2", serif;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.carrinhoContainer {
+    margin-top: 80px; /* Espaçamento superior para afastar do menu */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.total {
     font-family: "Baloo 2", serif;
     color: #ffffff;
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte do total */
+    margin-top: 10px; /* Espaçamento acima do total */
+}
+
+/* Estilos para o container dos produtos */
+.containerProduto {
+    width: 80%;
+    margin: 0 auto; /* Centraliza verticalmente e define margem nas laterais */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define três colunas com largura flexível */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para o botão de remover produto */
+.btnRemover {
+    background-color: #8B0000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: "Baloo 2", serif;
+    border: none;
+}
+
+/* Estilos para cada item do carrinho */
+.itemCarrinho {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; /* Faz com que cada item ocupe o mesmo espaço dentro do contêiner */
+    margin: 10px; /* Margem entre os produtos */
+}
+
+/* Estilos para a imagem dentro de cada item */
+.itemCarrinho img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para a descrição do produto */
+.descricaoProduto {
+    margin-top: 10px;
+}
+
+/* Estilos para a mensagem de aviso */
+.msgAviso {
+    font-family: "Baloo 2", serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Estilos para o container dos botões de quantidade */
+.containerBotoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Estilos para os botões de quantidade */
+.botaoQuantidade {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.botaoQuantidade:hover {
+    opacity: 0.8;
+}
+
+/* Estilos para o botão de aumentar quantidade */
+.botaoAumentar {
+    background-color: green;
+    margin-left: 5px; /* Espaçamento à esquerda */
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Estilos para o botão de diminuir quantidade */
+.botaoDiminuir {
+    background-color: red;
+    margin-right: 5px; /* Espaçamento à direita */
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Estilos para o campo de quantidade */
+.inputQuantidade {
+    width: 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.inputQuantidade:focus {
+    outline: none;
+    border-color: #3498db; /* Cor do contorno ao focar */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Sombra ao focar */
+}
+
+/* Media Queries para responsividade */
+
+@media (max-width: 768px) {
+    .containerProduto {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .containerProduto {
+        margin-top: 20px; /* Espaçamento superior entre produtos */
+    }
+    
+    .itemCarrinho {
+        height: auto; /* Altura automática para se adaptar ao conteúdo */
+    }
+}
+
+@media (max-width: 480px) {
+    .containerProduto {
+        grid-template-columns: 1fr; /* Um item por linha */
+    }
+    
+    .itemCarrinho {
+        height: auto; /* Altura automática para se adaptar ao conteúdo */
+    }
 }
