@@ -46,7 +46,7 @@ React JS foi escolhido como a biblioteca principal para o desenvolvimento da int
     ```
 2. **Instale as dependências**:
     ```bash
-    cd nextgen-gaming
+    cd Teste-Tecnico-Front-End-Maria-De-Fatima-Nunes-Alves/
     npm install
     ```
 3. **Execute a aplicação**:
