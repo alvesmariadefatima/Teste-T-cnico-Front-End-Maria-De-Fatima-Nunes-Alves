@@ -2,33 +2,25 @@
 
 .menu {
     display: flex;
-    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    align-items: center; /* Alinha verticalmente os itens */
     background-color: #1C1C1C; /* Cor de fundo do menu */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Garante que o menu fique sobreposto a outros elementos, se necessário */
+    height: 60px; /* Altura do menu */
+    z-index: 999; /* Garante que o menu fique sobreposto a outros elementos, se necessário */
 }
 
 .nomeSite {
     font-family: "Baloo 2", serif;
     font-size: 20px;
     color: #ffffff;
+    padding: 10px;
     font-weight: 600;
-    margin: 0; /* Remova o margin que estava causando um espaçamento extra */
-}
-
-.logoLink {
-    text-decoration: none;
-    display: flex; /* Para garantir que os elementos fiquem na mesma linha */
-    align-items: center; /* Alinha verticalmente */
-}
-
-.logoImg {
-    width: 40px; /* Tamanho do ícone do logotipo */
-    height: auto;
-    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+    margin: 0;
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
 .containerCarrinho {
