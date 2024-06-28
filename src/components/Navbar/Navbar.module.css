@@ -23,17 +23,6 @@
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
-.containerCarrinho {
-    margin-left: auto; /* Posiciona o carrinho no canto direito */
-}
-
-.carrinhoIcon {
-    width: 30px; /* Tamanho do ícone do carrinho */
-    height: auto;
-    cursor: pointer; /* Transforma o ícone em um ponteiro ao passar o mouse */
-    /* Adicione outros estilos conforme necessário */
-}
-
 /* Estilos para o menu responsivo */
 @media screen and (max-width: 768px) {
     .menu {
@@ -45,16 +34,5 @@
 
     .nomeSite {
         margin-bottom: 10px; /* Espaçamento abaixo do nome do site */
-    }
-
-    .containerCarrinho {
-        margin-left: auto; /* Empurra o carrinho para o canto direito */
-        margin-right: 30px;
-        margin-top: 10px; /* Espaçamento acima do carrinho */
-    }
-
-    .containerCarrinho img {
-        width: 30px; /* Tamanho do ícone do carrinho */
-        height: auto;
     }
 }
