@@ -1,8 +1,8 @@
-# NextGen Gaming
+# NextGen Gaming 🎮
 
 ## Descrição do Projeto
 
-NextGen Gaming é um projeto desenvolvido como parte de um desafio técnico para a posição de Desenvolvedor Frontend na NextGen Development. O propósito do desafio é criar uma aplicação web de comércio eletrônico especializada em jogos e consoles, proporcionando uma experiência de usuário fluida e atrativa. 
+NextGen Gaming é um projeto desenvolvido como parte de um desafio técnico para a posição de Desenvolvedor Frontend Pleno na NextGen Development. O propósito do desafio é criar uma aplicação web de comércio eletrônico especializada em jogos e consoles, proporcionando uma experiência de usuário fluida e atrativa. 
 
 ## Propósito do Desafio Técnico
 
@@ -30,6 +30,15 @@ React JS foi escolhido como a biblioteca principal para o desenvolvimento da int
 - **Listagem de Produtos**: Exibe uma lista de produtos (jogos e consoles) com suas respectivas imagens, descrições e preços.
 - **Carrinho de Compras**: Permite adicionar produtos ao carrinho de compras.
 - **Responsividade**: Interface de usuário adaptável a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos móveis e desktops.
+
+# Prints das Telas Desenvolvidas
+
+## Tela Inicial do Site
+<img src="./public/print-tela-home.PNG" alt="Tela Inicial do Site">
+<br><br>
+
+# Tela do Carrinho de Compras
+<img src="./public/print-tela-carrinho.PNG" alt="Tela do Carrinho de Compras">
 
 ## Como Executar o Projeto
 
