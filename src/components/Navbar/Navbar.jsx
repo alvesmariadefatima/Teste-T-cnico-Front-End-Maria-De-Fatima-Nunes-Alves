@@ -4,12 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <nav className={styles.menu}>
-            <div className={styles.containerLogotipo}>
-                <Link to="/" className={styles.logoLink}>
-                    <img src="/icone-nextgen-gaming.png" alt="Logotipo da loja NextGen Gaming" className={styles.logoImg} />
-                    <p className={styles.nomeSite}>NextGen Gaming</p>
-                </Link>
-            </div>
+            <p className={styles.nomeSite}>NextGen Gaming</p>
 
             <div className={styles.containerCarrinho}>
                 <Link to="/carrinho">
@@ -18,6 +13,6 @@ function Navbar() {
             </div>
         </nav>
     );
-}   
+}
 
 export default Navbar;
